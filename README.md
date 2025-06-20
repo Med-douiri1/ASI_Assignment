@@ -17,11 +17,11 @@ Goal: Estimate model uncertainty on rotated MNIST digits using Monte Carlo (MC) 
 
 ---
 
-## 2. UCI Regression Experiment 
+## 2. UCI Experiment 
 
 Goal: Evaluate MC Dropout for uncertainty estimation on regression tasks.
 
-* train.py — Performs grid search over dropout and tau, trains the model.
+* train.py — Performs grid search over dropout and tau (the values depend on the dataset), trains the model. 
 * test.py — Evaluates models using RMSE, MC RMSE, and log-likelihood.
 * UCI_Datasets/ — Preprocessed datasets and index files.
 
